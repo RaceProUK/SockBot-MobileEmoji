@@ -114,7 +114,7 @@ gulp.task('pushDocs', ['gitConfig', 'commitDocs'], (done) => {
     if (!runDocs) {
         return done();
     }
-    git.addRemote('github', 'https://github.com/SockDrawer/SockBot.git', (e) => {
+    git.addRemote('github', 'https://github.com/RaceProUK/SockBot-Emoji.git', (e) => {
         if (e) {
             done();
         } else {
