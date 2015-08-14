@@ -1,1 +1,1 @@
-# SockBot-MobileEmoji
+# SockBot Emoji Plugin
