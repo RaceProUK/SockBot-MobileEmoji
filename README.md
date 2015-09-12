@@ -11,7 +11,11 @@
 
 #SockBot Emoji
 
-Emoji plugin for [SockBot](https://sockbot.rtfd.org/en/latest/).
+Emoji plugin for [SockBot](https://sockbot.rtfd.org/en/latest/) version 2.11.0 or later; automatically replaces Unicode emoji with Discourse emoji in a user's posts.
+
+##Usage
+
+No special syntax is required; simply post as normal.
 
 ##Developers
 
