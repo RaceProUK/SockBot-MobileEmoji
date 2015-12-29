@@ -6,13 +6,13 @@ Emoji
 **License**: MIT  
 
 * [Emoji](#module_Emoji)
-  * _static_
-    * [.prepare(pluginConfig, botConfig, events, browser)](#module_Emoji.prepare)
-    * [.start()](#module_Emoji.start)
-    * [.stop()](#module_Emoji.stop)
-  * _inner_
-    * [~handler(message)](#module_Emoji..handler)
-    * [~replaceEmoji(post, callback)](#module_Emoji..replaceEmoji)
+    * _static_
+        * [.prepare(pluginConfig, botConfig, events, browser)](#module_Emoji.prepare)
+        * [.start()](#module_Emoji.start)
+        * [.stop()](#module_Emoji.stop)
+    * _inner_
+        * [~handler(message)](#module_Emoji..handler)
+        * [~replaceEmoji(post, callback)](#module_Emoji..replaceEmoji)
 
 <a name="module_Emoji.prepare"></a>
 ### Emoji.prepare(pluginConfig, botConfig, events, browser)
