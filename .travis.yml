@@ -3,11 +3,16 @@ node_js:
 - 'node'
 - '0.11'
 - '0.12'
-- '4.0'
-- '4.1'
 - 'iojs-v1'
 - 'iojs-v2'
 - 'iojs-v3'
+- '4.0'
+- '4.1'
+- '4.2'
+- '5.0'
+- '5.1'
+- '5.2'
+- '5.3'
 before_script:
 - rm -rf ./coverage
 - git config credential.helper "store --file=.git/credentials"
@@ -22,4 +27,7 @@ branches:
   - dev
 cache:
   directories:
-    - ./node_modules
+  - "./node_modules"
+notifications:
+  slack:
+    secure: arSq1uVY5JUEX4SHUQT22GjQt3H16YNBN4sZqZctUhMwaFkwqUxdXWvpnwvdT5MiqBRs4lbl43oSuaPH/lYe7v+b8efBYlUfn8cd3+zZfzfEXF2n6mQdfWncxLePY8XOp1DbDajEuUUrfdR6Qt+uPA4eDczW027ISFVRu3y/KbrXVQ/9NwLcs1Gz0h154RkvicHJKc+vymBCnhmbDlWEhPBgjfzpWU/RsnPM7JaAjbajUbtO870CPhOxCW5oYUj1eCKHwBfCC70xuVJo/znq/Ws/1aU+vZ60mOmzhWWKroHSAHygyyEWfTPux6V3z8AELnp5+iojLXDRDrDaRoxU5W1Lp2lAUgDPFTTpFhZ6s9DOvlVIyx064t15CfxE13/J+Zo6YOuVqzu8wUv90QMINLrAj2uI7wQHVgockow6aX698reP3n8GlT6HSRAvWvS8sfhukfAqmQD98SW9/rY3IEduQh259BX9ayTem5iJRlI+e7eTTdD0VrJ2wDwXyXq/6KjrJ+k8B/oYYdc2cETW99xJ0VvcIBofcLo3WKJqzKIxRgCp68VREoyVaH72p1ArwwuunKVpIMDdoOAB5N6OzCJy8v0XTW2P3u7A1wJX3sdBeYsel934NN77ne4N/zFhEG1N14RrBt394ZxtrCBkChXT+vwAWvcTpuwDkVYlbKM=
