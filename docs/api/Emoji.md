@@ -1,4 +1,5 @@
 <a name="module_Emoji"></a>
+
 ## Emoji
 Emoji
 
@@ -15,6 +16,7 @@ Emoji
         * [~replaceEmoji(post, callback)](#module_Emoji..replaceEmoji)
 
 <a name="module_Emoji.prepare"></a>
+
 ### Emoji.prepare(pluginConfig, botConfig, events, browser)
 Prepare Plugin prior to login
 
@@ -28,16 +30,19 @@ Prepare Plugin prior to login
 | browser | <code>SockBot.Browser</code> | Web browser for communicating with discourse (see [SockBot docs](https://sockbot.rtfd.org/en/latest/api/lib/browser/) for more details) |
 
 <a name="module_Emoji.start"></a>
+
 ### Emoji.start()
 Start the plugin after login
 
 **Kind**: static method of <code>[Emoji](#module_Emoji)</code>  
 <a name="module_Emoji.stop"></a>
+
 ### Emoji.stop()
 Stop the plugin prior to exit or reload
 
 **Kind**: static method of <code>[Emoji](#module_Emoji)</code>  
 <a name="module_Emoji..handler"></a>
+
 ### Emoji~handler(message)
 Replace emoji in the user's own posts
 
@@ -48,6 +53,7 @@ Replace emoji in the user's own posts
 | message | <code>SockBot.Message</code> | Notification recieved (see [SockBot docs](https://sockbot.rtfd.org/en/latest/api/external/messageBus/#external.module_messageBus..message) for more details) |
 
 <a name="module_Emoji..replaceEmoji"></a>
+
 ### Emoji~replaceEmoji(post, callback)
 Replace emoji in the user's own post
 
