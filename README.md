@@ -1,13 +1,5 @@
-[![Build Status](https://travis-ci.org/RaceProUK/SockBot-Emoji.svg?branch=master)](https://travis-ci.org/RaceProUK/SockBot-Emoji)
-[![Coverage Status](https://coveralls.io/repos/RaceProUK/SockBot-Emoji/badge.svg?branch=master)](https://coveralls.io/r/RaceProUK/SockBot-Emoji?branch=master)
+[![Coverage Status](https://coveralls.io/repos/SockDrawer/SockBot-Emoji/badge.svg?branch=master)](https://coveralls.io/r/SockDrawer/SockBot-Emoji?branch=master)
 [![Docs Status](https://readthedocs.org/projects/sockbot-emoji/badge/?version=latest)](http://sockbot-emoji.readthedocs.org/)
-
-[![Dependency Status](https://david-dm.org/RaceProUK/SockBot-Emoji/master.svg)](https://david-dm.org/RaceProUK/SockBot-Emoji/master)
-[![devDependency Status](https://david-dm.org/RaceProUK/SockBot-Emoji/master/dev-status.svg)](https://david-dm.org/RaceProUK/SockBot-Emoji/master#info=devDependencies)
-[![optionalDependency Status](https://david-dm.org/RaceProUK/SockBot-Emoji/master/optional-status.svg)](https://david-dm.org/RaceProUK/SockBot-Emoji/master#info=optionalDependencies)
-
-[![Stories in Ready](https://badge.waffle.io/RaceProUK/SockBot-Emoji.png?label=ready&title=Ready)](https://waffle.io/RaceProUK/SockBot-Emoji)
-[![Stories in Progress](https://badge.waffle.io/RaceProUK/SockBot-Emoji.png?label=in%20progress&title=In%20Progress)](https://waffle.io/RaceProUK/SockBot-Emoji)
 
 #SockBot Emoji
 
